@@ -118,8 +118,11 @@
 ```
 .
 ├── .claude/
-│   └── skills/q-news/
-│       └── digest-corporate-governance.md   # Скилл Claude: методика сбора дайджеста
+│   └── skills/
+│       ├── q-news/
+│       │   └── digest-corporate-governance.md   # Скилл Claude: методика сбора дайджеста
+│       └── repo-workflow/
+│           └── SKILL.md                          # Скилл Claude: работа с репозиторием
 ├── 3 квартал-новости/                        # Готовые .docx за 3 квартал 2026
 │   ├── Дайджест_корпоративное_управление_Q3_2026.docx
 │   └── Дайджест_корпоративное_управление_Q3_2026_v2.docx
